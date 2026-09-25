@@ -1,29 +1,25 @@
 # 🩺 Pneumonia Detection AI Dashboard
 
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pneumoniadetection-uqy2vdrv7t4djwyx3qcd6q.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![VGG19](https://img.shields.io/badge/Architecture-VGG19-red.svg)](https://keras.io/api/applications/vgg/#vgg19-function)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An end-to-end Computer Vision and Deep Learning web dashboard for real-time automated detection of **Pneumonia** from Chest X-Ray radiograms. Built using **Streamlit** and fine-tuned **VGG19 Transfer Learning**, this application enables rapid diagnostic screening with visual confidence scoring.
+An end-to-end Computer Vision and Deep Learning web dashboard for real-time automated detection of **Pneumonia** from Chest X-Ray radiograms. Built using **Streamlit** and **VGG19 Transfer Learning**, this application enables rapid diagnostic screening with visual confidence scoring.
 
 ---
 
-## 🚀 Live Streamlit Deployment
+## 🌐 Live Web Application
 
-Deploy this project on **Streamlit Community Cloud** with 1 click:
-
-1. Fork or open this repository: [`proswarnali24/PNEUMONIA_DETECTION`](https://github.com/proswarnali24/PNEUMONIA_DETECTION)
-2. Visit [**share.streamlit.io**](https://share.streamlit.io) and log in with GitHub.
-3. Click **New App** $\rightarrow$ select `proswarnali24/PNEUMONIA_DETECTION` $\rightarrow$ set main file to `streamlit_app.py` $\rightarrow$ click **Deploy!**
+Access the live application directly in your browser:
+👉 **[https://pneumoniadetection-uqy2vdrv7t4djwyx3qcd6q.streamlit.app/](https://pneumoniadetection-uqy2vdrv7t4djwyx3qcd6q.streamlit.app/)**
 
 ---
 
 ## ✨ Features
 
 - **⚡ Instant Classification**: Analyzes chest radiograms in seconds and classifies them as **Normal** or **Pneumonia**.
-- **🧠 VGG19 Backbone**: Features a deep convolutional transfer learning network trained on chest X-Ray datasets.
+- **🧠 VGG19 Backbone**: Uses a deep convolutional transfer learning network trained on chest X-Ray datasets.
 - **📊 Interactive Metrics**: Real-time confidence percentage scores and visual probability bars for both diagnostic classes.
 - **🎨 Modern Responsive UI**: Custom-styled Streamlit interface featuring a dark medical header, upload card, and status badges.
 - **📁 Included Test Dataset**: Sample X-ray images included in `samples/` for immediate testing.
@@ -38,7 +34,6 @@ Deploy this project on **Streamlit Community Cloud** with 1 click:
 | **Deep Learning** | TensorFlow, Keras (VGG19 Backbone) |
 | **Image Preprocessing** | OpenCV, Pillow (PIL), NumPy |
 | **Model Exploration** | Jupyter Notebook |
-| **Deployment Target** | Streamlit Community Cloud / Local Python 3.8+ |
 
 ---
 
@@ -141,7 +136,3 @@ Sample X-ray radiograms are provided in the [`samples/`](samples/) folder for im
 ## ⚠️ Disclaimer
 
 This application is created for **educational, demonstration, and research purposes only**. It should not be used as a primary diagnostic tool for clinical medical decisions without validation by a certified medical professional or radiologist.
-
----
-
-<p align="center">Developed with ❤️ using Streamlit & TensorFlow</p>
