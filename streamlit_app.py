@@ -92,7 +92,7 @@ def load_vgg19_model():
     model = Model(base_model.inputs, output)
 
     # Check for custom fine-tuned weights
-    weights_path = os.path.join(os.path.dirname(__file__), 'Flask Application', 'vgg_unfrozen.h5')
+    weights_path = os.path.join(os.path.dirname(__file__), 'vgg_unfrozen.h5')
     if os.path.exists(weights_path):
         try:
             model.load_weights(weights_path)
